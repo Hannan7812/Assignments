@@ -1,0 +1,2 @@
+# Assignments Repository
+This is a dedicated repo for my assignments of the Object Oriented Programming course. Each assignment has a dedicated folder and further details about the assignment are given in that folder
