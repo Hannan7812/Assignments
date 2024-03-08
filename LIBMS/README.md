@@ -24,7 +24,7 @@ The program requires several components to run properly. To run on any machine, 
 - Must contain columns for Userid, name, contact
 #### Borrows Table
 - Must contain Bookid and Userid columns, both of which must be foreign keys referring to their respective tables
-In case of a different choice of Database, the queries in the program must be altered. 
+##### In case of a different choice of Database, the queries in the program must be altered. 
 
 ## Installation
 
