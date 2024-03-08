@@ -16,6 +16,16 @@ The Library Management System is a software application designed to manage the o
 - Borrow and return books
 - Generate reports
 
+## Dependencies
+The program requires several components to run properly. To run on any machine, it would require the Java virtual machine. Furthermore, It would also require a valid connection with a mysql server. The database must have the following format
+#### Books Table
+- Must contain columns for Bookid, title, author, genre, avaialble
+#### Users Table
+- Must contain columns for Userid, name, contact
+#### Borrows Table
+- Must contain Bookid and Userid columns, both of which must be foreign keys referring to their respective tables
+In case of a different choice of Database, the queries in the program must be altered. 
+
 ## Installation
 
 1. Clone the repository: `git clone https://github.com/your-username/library-management-system.git`
